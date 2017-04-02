@@ -1,0 +1,14 @@
+[package]
+name = "twitter_reader"
+version = "0.1.0"
+authors = ["Joshua Karns <jkarns275@gmail.com>"]
+
+[dependencies]
+egg-mode = { git = "https://github.com/jkarns275/twitter-rs" }
+chrono = "0.2"
+rustbox = "*"
+regex = "0.2"
+lazy_static = "0.1.*"
+random_access_file = "0.3.1"
+cfile-rs = "0.3.1"
+crossbeam = "0.2"
